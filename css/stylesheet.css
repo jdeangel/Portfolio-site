@@ -1,0 +1,77 @@
+
+.nav-primary ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-primary li {
+    display: inline;
+}
+
+.nav-primary a {
+    display: block;
+    
+    color:black;
+}
+
+nav ul.nav-pills li.active a{
+	background: #f47b20;
+}
+
+
+
+.btn-success{
+	font-size: 16px;
+	font-weight:16px;
+}
+
+.site-name h1{
+	font-weight:900;
+	color:#5c5b60;
+}
+
+.bio{
+	color:red;
+}
+
+.modal-dialog{
+	width: auto;
+}
+
+#artwork1 .modal-dialog{
+	margin:31px 60px;
+}
+
+.card--row{
+	margin-top: 1em;
+	float: left;
+}
+
+.card{
+	max-width: 30%;
+	float: left;
+}
+
+.card:first-child{
+	margin-right:5%;
+}
+
+.card:last-child{
+	margin-left:5%;
+}
+.card .image-link img{
+	width: 100%;
+
+}
+
+.card .image-link{
+ 	height: 250px;
+	overflow-y:hidden;
+	float:left;
+	background:pink;
+}
+
+footer{background: grey;
+	margin-top: 1.618em;
+}
