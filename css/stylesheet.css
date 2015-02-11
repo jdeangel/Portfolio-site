@@ -1,4 +1,21 @@
+h2{
+	font-size: 20px;
+	
+}
 
+p{
+	font-size: 16px;
+	color: grey;
+
+}
+
+.description p{
+	padding-top: 10px;
+}
+
+.nav{
+	padding-bottom: 50px;
+}
 .nav-primary ul {
     list-style-type: none;
     margin: 0;
@@ -7,6 +24,7 @@
 
 .nav-primary li {
     display: inline;
+    font-size: 16px;
 }
 
 .nav-primary a {
@@ -16,10 +34,8 @@
 }
 
 nav ul.nav-pills li.active a{
-	background: #f47b20;
+	background: #9bd3dd;
 }
-
-
 
 .btn-success{
 	font-size: 16px;
@@ -40,7 +56,7 @@ nav ul.nav-pills li.active a{
 }
 
 #artwork1 .modal-dialog{
-	margin:31px 60px;
+	margin:15px 30px;
 }
 
 .card--row{
@@ -51,13 +67,16 @@ nav ul.nav-pills li.active a{
 .card{
 	max-width: 30%;
 	float: left;
+	margin-bottom: 1.618em;
+	border: 1px solid #efefef;
+	box-shadow: 0 2px 3px 0 #dfdfdf
 }
 
-.card:first-child{
+.card--row .card:first-child{
 	margin-right:5%;
 }
 
-.card:last-child{
+.card--row .card:last-child{
 	margin-left:5%;
 }
 .card .image-link img{
@@ -65,13 +84,44 @@ nav ul.nav-pills li.active a{
 
 }
 
-.card .image-link{
- 	height: 250px;
-	overflow-y:hidden;
+.card .text-wrapper{
 	float:left;
-	background:pink;
+	width: 92%;
+	margin: 0 4% 1em 4%;
 }
 
-footer{background: grey;
+.card .image-link{
+ 	height: auto;
+ 	width:100%;
+	overflow-y:hidden;
+	float:left;
+}
+
+.card .description{
+	min-height: 	2.6em;
+	font-family: georgia, 'times new roman', serif;
+}
+
+.card .btn{
+	border-radius: 0px;
+	width: 100%;
+}
+
+footer{background: #e0e0e0;
 	margin-top: 1.618em;
+	padding-top: 50px;
+}
+
+footer h4{
+	font-size: 20px;
+	font-weight:800;
+}
+footer p{
+	font-family: georgia;
+	color: black;
+}
+
+footer ul{
+	list-style: none;
+	font-family: georgia;
 }
