@@ -1,0 +1,66 @@
+$serif:  georgia, 'times new roman', serif;
+$sans-serif: helvetica, arial, sans-serif;
+
+$font-size-small:12px;
+$font-size-med: 16px;
+$font-size-large: 20px;
+$font-size-xlarge: 40px;
+
+.font-size-med{
+	font-size: $font-size-med;
+	margin-top: 0.618em;
+	margin-bottom: 0.9em;
+}
+
+
+.font-size-large{
+	font-size: $font-size-large;
+}
+
+.font-size-small{
+	//nclude adjust-font-size-to($font-size-small);
+	//nclude rhythm(0.618, 0, 0, 0.9, $font-size-small);
+}
+
+h1{
+	font-family: $sans-serif;
+	font-weight:900;
+	color:  $primary;
+	font-size: $font-size-xlarge;
+
+}
+
+h2{
+	font-family: $sans-serif;
+	font-weight: 300;
+	color: $secondary;
+	@extend .font-size-large;
+	@include rhythm(0.618, 0, 0, 0.9, $font-size-large);
+}
+
+h3{
+	font-family:$serif;
+	font-weight: 200;
+	font-size: $font-size-med;
+	color: $tertiary;
+}
+
+h4{
+		font-family: $sans-serif;
+		font-weight:800;
+		@extend .font-size-large;
+	}
+
+p{
+	@extend .font-size-med;
+	@include rhythm(0.618, 0, 0, 0.9, 16px);
+}
+
+
+.card .description{
+	font-family:$serif;
+	font-weight: 200;
+	font-size: 16px;
+	color: $tertiary;
+}
+

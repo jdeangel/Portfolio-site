@@ -1,0 +1,178 @@
+/* line 9, ../SCSS/modules/typography.scss */
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 900;
+  color: #002855;
+  font-size: 40px;
+}
+
+/* line 17, ../SCSS/modules/typography.scss */
+h2 {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ede7dc;
+}
+
+/* line 24, ../SCSS/modules/typography.scss */
+h3 {
+  font-family: georgia, "times new roman", serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: #005eb8;
+}
+
+/* line 31, ../SCSS/modules/typography.scss */
+h4 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+/* line 37, ../SCSS/modules/typography.scss */
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 0.927em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.35em;
+}
+
+/* line 43, ../SCSS/modules/typography.scss */
+.card .description {
+  font-family: georgia, "times new roman", serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: #005eb8;
+}
+
+/* line 1, ../SCSS/partials/_nav.scss */
+.nav {
+  padding-bottom: 50px;
+}
+
+/* line 6, ../SCSS/partials/_nav.scss */
+.nav-primary ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 12, ../SCSS/partials/_nav.scss */
+.nav-primary li {
+  display: inline;
+  font-size: 16px;
+}
+/* line 17, ../SCSS/partials/_nav.scss */
+.nav-primary a {
+  display: block;
+  color: #7f93aa;
+}
+
+/* line 25, ../SCSS/partials/_nav.scss */
+nav ul.nav-pills li.active a {
+  background: #002855;
+}
+
+/* line 2, ../SCSS/partials/_cards.scss */
+.card--row {
+  margin-top: 1em;
+  float: left;
+}
+/* line 7, ../SCSS/partials/_cards.scss */
+.card--row .card {
+  max-width: 30%;
+  float: left;
+  margin-bottom: 1.618em;
+  border: 1px solid #ede7dc;
+  -webkit-box-shadow: 0 2px 3px 0 black;
+  -moz-box-shadow: 0 2px 3px 0 black;
+  box-shadow: 0 2px 3px 0 black;
+}
+/* line 15, ../SCSS/partials/_cards.scss */
+.card--row .card:first-child {
+  margin-right: 5%;
+}
+/* line 19, ../SCSS/partials/_cards.scss */
+.card--row .card:last-child {
+  margin-left: 5%;
+}
+/* line 23, ../SCSS/partials/_cards.scss */
+.card--row .card .image-link {
+  height: auto;
+  width: 100%;
+  overflow-y: hidden;
+  float: left;
+}
+/* line 29, ../SCSS/partials/_cards.scss */
+.card--row .card .image-link img {
+  width: 100%;
+}
+/* line 35, ../SCSS/partials/_cards.scss */
+.card--row .card .text-wrapper {
+  float: left;
+  width: 92%;
+  margin: 0 4% 1em 4%;
+}
+/* line 41, ../SCSS/partials/_cards.scss */
+.card--row .card .text-wrapper .title {
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+/* line 46, ../SCSS/partials/_cards.scss */
+.card--row .card .text-wrapper .description {
+  min-height: 2.6em;
+  font-family: georgia, "times new roman", serif;
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin-top: 0.7416em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.08em;
+  color: #4c5b6c;
+}
+/* line 56, ../SCSS/partials/_cards.scss */
+.card--row .card .btn {
+  border-radius: 0px;
+  width: 100%;
+}
+
+/* line 2, ../SCSS/partials/_footer.scss */
+footer {
+  background: #ede7dc;
+  margin-top: 1.618em;
+  padding-top: 50px;
+  font-family: georgia, "times new roman", serif;
+  color: #00162e;
+}
+/* line 11, ../SCSS/partials/_footer.scss */
+footer ul {
+  list-style: none;
+  font-family: georgia, "times new roman", serif;
+}
+
+/* line 18, ../SCSS/styles.scss */
+.description p {
+  padding-top: 10px;
+}
+
+/* line 22, ../SCSS/styles.scss */
+.btn-success {
+  font-size: 16px;
+  font-weight: 16px;
+}
+
+/* line 27, ../SCSS/styles.scss */
+.bio {
+  color: red;
+}
+
+/* line 31, ../SCSS/styles.scss */
+.modal-dialog {
+  width: auto;
+}
+
+/* line 35, ../SCSS/styles.scss */
+#artwork1 .modal-dialog {
+  margin: 15px 30px;
+}

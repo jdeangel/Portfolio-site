@@ -1,0 +1,72 @@
+
+.card--row{
+  margin-top: 1em;
+  float: left;
+
+
+  .card{
+	max-width: 30%;
+	float: left;
+	margin-bottom: 1.618em;
+	border: 1px solid $secondary;
+	@include box-shadow(0 2px 3px 0 darken($secondary, 90));
+
+	
+	&:first-child{
+		margin-right:5%;
+	}
+
+	&:last-child{
+	margin-left:5%;
+		}
+
+	.image-link{
+	 	height: auto;
+	 	width:100%;
+		overflow-y:hidden;
+		float:left;
+		
+		img{
+			width: 100%;
+			}	
+
+	}//end .img-link	
+
+	.text-wrapper{
+		float:left;
+		width: 92%;
+		margin: 0 4% 1em 4%;
+
+
+		.title{
+			//font-size: 20px;
+			@include adjust-font-size-to(20px)		
+		}
+	
+		.description{
+			min-height: 	2.6em;
+			font-family: $serif;
+			@include adjust-font-size-to(20px); /// compass vertical rhythm
+			@include rhythm(0.618, 0, 0, 0.9, 20px);	
+			color: $grey;
+		}
+	}//end of .text-wrapper
+
+
+	.btn{
+		border-radius: 0px;
+		width: 100%;
+	}
+
+
+
+  }//end .card
+}//end.card--row
+
+
+
+
+
+
+
+

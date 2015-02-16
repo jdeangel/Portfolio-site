@@ -1,0 +1,37 @@
+@import "compass";
+
+// variables functions and mixins
+@import "modules/all";
+@import "modules/colors";
+@import "modules/utility";
+@import "modules/typography";
+
+//site sections and elements
+@import "partials/base";
+@import "partials/nav";
+@import "partials/cards";
+@import "partials/footer";
+ 
+
+
+
+.description p{
+	padding-top: 10px;
+}
+
+.btn-success{
+	font-size: 16px;
+	font-weight:16px;
+}
+
+.bio{
+	color:red;
+}
+
+.modal-dialog{
+	width: auto;
+}
+
+#artwork1 .modal-dialog{
+	margin:15px 30px;
+}

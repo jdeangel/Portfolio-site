@@ -1,0 +1,27 @@
+.nav{
+	padding-bottom: 50px;
+}
+.nav-primary{ 
+
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+
+	li {
+	    display: inline;
+	    font-size: $font-size-med;
+	}
+
+	a {
+	    display: block;
+	    color: tint($primary, 50);
+	}
+
+} //end .nav-primary
+
+
+nav ul.nav-pills li.active a{
+	background: $primary;
+}
