@@ -5,20 +5,34 @@
 
 
   .card{
-	max-width: 30%;
+	max-width: 100%;
 	float: left;
 	margin-bottom: 1.618em;
 	border: 1px solid $secondary;
 	@include box-shadow(0 2px 3px 0 darken($secondary, 90));
 
 	
-	&:first-child{
-		margin-right:5%;
-	}
+	@include breakpoint($bp-mobile1-3){
+	  max-width: 30%;
+	  &:first-child{
+	  	margin-right:5%;
+	  }
 
-	&:last-child{
-	margin-left:5%;
-		}
+	  &:last-child{
+	    margin-left:5%;
+	  }
+	}//end $bp-mobile2-3
+
+		@include breakpoint($bp-desktop1-2){
+	  max-width: 30%;
+	  &:first-child{
+	  	margin-right:5%;
+	  }
+
+	   &:last-child{
+	    margin-left:5%;
+	  }
+	 }//end $bp-desktop1-2
 
 	.image-link{
 	 	height: auto;
@@ -57,7 +71,6 @@
 		border-radius: 0px;
 		width: 100%;
 	}
-
 
 
   }//end .card

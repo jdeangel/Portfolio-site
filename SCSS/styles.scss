@@ -1,7 +1,21 @@
 @import "compass";
+@import "bootstrap";
+@import "breakpoint";
+@import 'singularitygs'; 
+@import 'toolkit';
+@import 'sassy-buttons';
+@import 'normalize';  
+@import 'modular-scale'; 
+@import 'color-schemer';
+ 
+ 
+
+//vendor elements
+@import "vendor/bootstrap-variables";
 
 // variables functions and mixins
 @import "modules/all";
+@import "modules/variables-spacing";
 @import "modules/colors";
 @import "modules/utility";
 @import "modules/typography";
@@ -11,6 +25,8 @@
 @import "partials/nav";
 @import "partials/cards";
 @import "partials/footer";
+
+
  
 
 

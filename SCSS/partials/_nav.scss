@@ -25,3 +25,12 @@
 nav ul.nav-pills li.active a{
 	background: $primary;
 }
+
+nav select {
+  display: none;
+}
+
+@media (max-width: 580px) {
+  nav ul     {  }
+  nav select { display: inline-block; }
+}
