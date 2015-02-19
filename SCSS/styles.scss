@@ -19,6 +19,7 @@
 @import "modules/colors";
 @import "modules/utility";
 @import "modules/typography";
+@import "modules/modals";
 
 //site sections and elements
 @import "partials/base";
@@ -44,10 +45,3 @@
 	color:red;
 }
 
-.modal-dialog{
-	width: auto;
-}
-
-#artwork1 .modal-dialog{
-	margin:15px 30px;
-}

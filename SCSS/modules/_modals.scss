@@ -1,0 +1,23 @@
+.modal-dialog{
+	width: auto;
+	z-index: 1500;
+
+	.modal-content{
+		text-align: center;
+	}
+}
+
+.modal-backdrop{
+
+	background: red;
+
+	&.fade{
+		opacity: 0.8;
+	}
+}
+
+
+#artwork1 .modal-dialog{
+	margin:15px 30px;
+}
+

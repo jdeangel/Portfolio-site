@@ -1,8 +1,8 @@
-$serif:  georgia, 'times new roman', serif;
+ $serif:  georgia, 'times new roman', serif;
 $sans-serif: helvetica, arial, sans-serif;
 
 //$font-size-small: 12px;
-//$font-size-med: 16px;
+$font-size-small_med: 14px;
 //$font-size-large:20px;
 //$font-size-xlarge: 40px;
 
@@ -33,12 +33,16 @@ h3{
 
 h4{
 		font-family: $sans-serif;
-		font-size: $font-size-small;
+		font-size: $font-size-med;
 		font-weight:800;
 	}
 
+
+.contact p{
+		width:35%;
+	}
 p{
-	@include adjust-font-size-to(16px); /// compass vertical rhythm
+	font-size: $font-size-small_med; /// compass vertical rhythm
 	@include rhythm($ms-2n, 0, 0, $ms-0, 16px);	
 }
 
